@@ -11,7 +11,7 @@ source:
   sha256: e9a38c63301af8eaac71e2858886d4dec0c9aef686e641db2c4f7f3c6ba42b11
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -36,7 +36,7 @@ test:
 about:
   home: https://github.com/bleykauf/aisim
   summary: Simulations for light-pulse atom interferometry
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_file: LICENSE
   doc_url: https://aisim.readthedocs.io/
   dev_url: https://github.com/bleykauf/aisim
