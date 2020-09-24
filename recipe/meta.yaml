@@ -1,5 +1,5 @@
 {% set name = "aisim" %}
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aisim-{{ version }}.tar.gz
-  sha256: e9a38c63301af8eaac71e2858886d4dec0c9aef686e641db2c4f7f3c6ba42b11
+  sha256: 186eec572f233fb0f7eed3a491f90388fb01acb840da26e0450117035d24c340
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
