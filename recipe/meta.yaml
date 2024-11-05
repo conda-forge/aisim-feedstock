@@ -1,5 +1,5 @@
 {% set name = "aisim" %}
-{% set version = "0.7.2" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aisim-{{ version }}.tar.gz
-  sha256: 186eec572f233fb0f7eed3a491f90388fb01acb840da26e0450117035d24c340
+  sha256: f907ea2cad5fd25fab81942af2fb9d8b6b25c065e0513c2d3634bb85495cf5d2
 
 build:
   number: 0
